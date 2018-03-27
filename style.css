@@ -1,0 +1,79 @@
+body, html {
+font-type: Georgia;
+height: 100%;
+width:100%;
+padding-left: 40px;
+padding-right: 40px;
+
+}
+
+.top {
+  position: relative;
+  height: 30px;
+  flex: initial;
+}
+
+.top, h6 {
+  color: turquoise;
+  font-size: 12px;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 15px;
+
+}
+
+  .list, ul, li {
+  list-style-type: none;
+  color: black;
+  text-decoration: underline;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  align-content: space-around;
+}
+
+
+
+
+#image1 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  text-align: left;
+  position: relative;
+  flex-direction: column;
+  margin-right: 50%;
+  max-width: 35%;
+  min-height:40%;
+}
+
+ .caption-tuna h1 {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.first p {
+  text-align: left;
+  position: relative;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 35%;
+}
+
+ h2 {
+  font-weight: bold;
+  text-align: left;
+  max-width: 15%;
+}
+
+
+
+p {
+  text-align: left;
+  position: relative;
+  flex-wrap: wrap;
+  max-width: 15%;
+}
